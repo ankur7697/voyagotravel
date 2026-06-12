@@ -37,7 +37,6 @@ type SearchResponse = {
   error?: string;
   availableDates?: string[];
   flights?: FlightResult[];
-  isMock?: boolean;
 };
 
 type SearchMode = "flights" | "hotels";
@@ -177,7 +176,6 @@ export default function FlightSearch() {
   const [departureDate, setDepartureDate] = useState(() => getTodayDate());
   const [message, setMessage] = useState("");
   const [results, setResults] = useState<FlightResult[]>([]);
-  const [isFlightMock, setIsFlightMock] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [hotelDestinationText, setHotelDestinationText] = useState("");
   const [selectedHotelPlace, setSelectedHotelPlace] =
@@ -235,7 +233,6 @@ export default function FlightSearch() {
     setDepartureDate(getTodayDate());
     setMessage("");
     setResults([]);
-    setIsFlightMock(false);
   }
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -243,7 +240,6 @@ export default function FlightSearch() {
     setIsLoading(true);
     setMessage("");
     setResults([]);
-    setIsFlightMock(false);
 
     try {
       const response = await fetch("/api/flights", {
@@ -264,7 +260,6 @@ export default function FlightSearch() {
       }
 
       setResults(data.flights ?? []);
-      setIsFlightMock(Boolean(data.isMock));
       setMessage(
         data.flights?.length
           ? `Flights found from ${getAirportCode(origin)} to ${getAirportCode(destination)}`
@@ -565,11 +560,6 @@ export default function FlightSearch() {
                   Clear
                 </button>
               </div>
-              {isFlightMock ? (
-                <p className="border-t border-white/10 px-4 py-3 text-xs font-black uppercase text-[#f8d28a]">
-                  Mock flight results are showing because AVIATIONSTACK_API_KEY is not set.
-                </p>
-              ) : null}
             </div>
           ) : null}
 

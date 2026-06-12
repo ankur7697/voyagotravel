@@ -193,9 +193,9 @@ export default function Home() {
             <div className="mt-7 grid max-w-2xl gap-4 border-t border-[#dbe7fb] pt-5 text-sm font-bold text-[#526174] sm:grid-cols-3">
               <p>
                 <span className="block text-3xl font-black text-[#3157d5]">
-                  India
+                  7+
                 </span>
-                departures handled
+                travel styles planned
               </p>
               <p>
                 <span className="block text-3xl font-black text-[#3157d5]">
