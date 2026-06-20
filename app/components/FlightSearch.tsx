@@ -989,7 +989,7 @@ function HotelResultCard({
         <div className="mt-5 flex min-w-0 flex-wrap items-center justify-between gap-4 border-t border-[#12213f]/10 pt-4">
           <HotelPriceBlock hotel={hotel} />
           <button
-            className="max-w-full break-words rounded-md bg-[#12213f] px-4 py-3 text-sm font-black text-[#ffffff] hover:bg-[#12213f] [overflow-wrap:anywhere]"
+            className="min-h-12 w-full max-w-full rounded-md bg-[#ff7a59] px-5 py-3 text-sm font-black text-[#ffffff] shadow-lg shadow-[#ff7a59]/20 hover:bg-[#e85d3f] sm:w-auto sm:min-w-36"
             onClick={() => onViewDetails(hotel)}
             type="button"
           >
