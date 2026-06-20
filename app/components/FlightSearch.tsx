@@ -1097,7 +1097,7 @@ function HotelDetailsModal({
 
           <div className="mt-6 flex min-w-0 flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
-              className="max-w-full break-words rounded-md bg-[#18a058] px-5 py-3 text-center text-sm font-black text-white hover:bg-[#128348] [overflow-wrap:anywhere]"
+              className="min-h-12 max-w-full rounded-md bg-[#18a058] px-5 py-3 text-center text-sm font-black text-[#ffffff] shadow-lg shadow-[#18a058]/20 hover:bg-[#128348] sm:min-w-40"
               href={`https://wa.me/17078028394?text=${whatsappText}`}
               rel="noreferrer"
               target="_blank"
@@ -1105,7 +1105,7 @@ function HotelDetailsModal({
               Ask on WhatsApp
             </a>
             <a
-              className="max-w-full break-words rounded-md bg-[#12213f] px-5 py-3 text-center text-sm font-black text-white hover:bg-[#12213f] [overflow-wrap:anywhere]"
+              className="min-h-12 max-w-full rounded-md bg-[#ff7a59] px-5 py-3 text-center text-sm font-black text-[#ffffff] shadow-lg shadow-[#ff7a59]/20 hover:bg-[#e85d3f] sm:min-w-40"
               href="tel:+17078028394"
             >
               Call Travel Expert
