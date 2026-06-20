@@ -54,13 +54,13 @@ const sections = [
     title: "Your Choices",
     body: [
       "You may request access, correction, or deletion of your personal information where legally permitted. Some records may need to be retained for accounting, legal, fraud prevention, or dispute resolution purposes.",
-      "To make a privacy request, contact us at info@voyagoglobal.com or +1 (971) 517-5979.",,
+      "To make a privacy request, contact us at info@voyagoglobal.com or +1 (971) 517-5979.",
     ],
   },
   {
     title: "Contact",
     body: [
-      "For privacy questions, contact Voyagoglobal at info@voyagoglobal.com, +1 (971) 517-5979, or by mail at Voyagoglobal LLC, 190 WEST WALNUT AVE, APT C, RIALTO, CA 92376. Please include enough detail for us to identify your request and respond properly.",,
+      "For privacy questions, contact Voyagoglobal at info@voyagoglobal.com, +1 (971) 517-5979, or by mail at Voyagoglobal LLC, 190 WEST WALNUT AVE, APT C, RIALTO, CA 92376. Please include enough detail for us to identify your request and respond properly.",
     ],
   },
 ];

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Cancellation Policy | Voyagoglobal",
   description:
-    "Cancellation policy for Voyagoglobal bookings, itinerary changes, no-shows, supplier penalties, and travel credits.",,
+    "Cancellation policy for Voyagoglobal bookings, itinerary changes, no-shows, supplier penalties, and travel credits.",
 };
 
 const sections = [
