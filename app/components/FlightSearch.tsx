@@ -965,7 +965,7 @@ function HotelResultCard({
           {hotel.starRating ? `${Math.round(hotel.starRating)} star` : "Rating TBA"}
         </div>
         {typeof hotel.refundable === "boolean" ? (
-          <div className="absolute bottom-3 left-3 rounded-md bg-[#12213f]/86 px-3 py-2 text-xs font-black text-white">
+          <div className="absolute bottom-3 left-3 rounded-md bg-[#12213f]/86 px-3 py-2 text-xs font-black text-[#ffffff]">
             {hotel.refundable ? "Refundable" : "Non-refundable"}
           </div>
         ) : null}
@@ -989,7 +989,7 @@ function HotelResultCard({
         <div className="mt-5 flex min-w-0 flex-wrap items-center justify-between gap-4 border-t border-[#12213f]/10 pt-4">
           <HotelPriceBlock hotel={hotel} />
           <button
-            className="max-w-full break-words rounded-md bg-[#12213f] px-4 py-3 text-sm font-black text-white hover:bg-[#12213f] [overflow-wrap:anywhere]"
+            className="max-w-full break-words rounded-md bg-[#12213f] px-4 py-3 text-sm font-black text-[#ffffff] hover:bg-[#12213f] [overflow-wrap:anywhere]"
             onClick={() => onViewDetails(hotel)}
             type="button"
           >
