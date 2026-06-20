@@ -1009,7 +1009,7 @@ function HotelDetailsModal({
   onClose: () => void;
 }) {
   const whatsappText = encodeURIComponent(
-    `Hi, I want details for ${hotel.name} on VoyagoTravels.`,
+    `Hi, I want details for ${hotel.name} on Voyagoglobal.`,
   );
 
   return (

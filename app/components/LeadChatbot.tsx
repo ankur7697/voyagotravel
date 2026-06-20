@@ -324,11 +324,11 @@ const flows: Record<ServiceType, FlowStep[]> = {
 };
 
 const initialMessage =
-  "Hi, welcome to VoyagoTravels. Tell me what you want to plan and I will collect the right details.";
+  "Hi, welcome to Voyagoglobal. Tell me what you want to plan and I will collect the right details.";
 const whatsappPhoneNumber =
   process.env.NEXT_PUBLIC_VOYAGO_TRAVELS_WHATSAPP_NUMBER ?? "17078028394";
 const whatsappText =
-  "Hi, I submitted a VoyagoTravels enquiry and want help with my trip.";
+  "Hi, I submitted a Voyagoglobal enquiry and want help with my trip.";
 
 export default function LeadChatbot() {
   const [isOpen, setIsOpen] = useState(false);
@@ -528,7 +528,7 @@ export default function LeadChatbot() {
                 <span className="absolute bottom-0 right-0 h-3 w-3 rounded-full border-2 border-[#12213f] bg-[#35d07f]" />
               </div>
               <div className="min-w-0">
-                <p className="text-sm font-black leading-5">VoyagoTravels Support</p>
+                <p className="text-sm font-black leading-5">Voyagoglobal Support</p>
                 <p className="mt-0.5 inline-flex rounded-full bg-white/10 px-2 py-0.5 text-[11px] font-bold text-white/80">
                   Online now
                 </p>

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | VoyagoTravels",
+  title: "Refund Policy | Voyagoglobal",
   description:
-    "Refund policy for VoyagoTravels bookings, deposits, supplier charges, payment processing, and travel service fees.",
+    "Refund policy for Voyagoglobal bookings, deposits, supplier charges, payment processing, and travel service fees.",,
 };
 
 const sections = [
@@ -46,7 +46,7 @@ const sections = [
   {
     title: "How To Request A Refund",
     body: [
-      "Email info@voyagotravels.com or call +1 (707) 802-8394 with your booking name, invoice number, travel dates, destination, reason for refund request, and any supporting documents. Written requests may also be sent to VoyagoTravels LLC, 60 W Brookside Dr, Cloverdale, CA 95425.",
+      "Email info@voyagoglobal.com or call +1 (971) 517-5979 with your booking name, invoice number, travel dates, destination, reason for refund request, and any supporting documents. Written requests may also be sent to Voyagoglobal LLC, 190 WEST WALNUT AVE, APT C, RIALTO, CA 92376.",,
       "We will review the booking, check supplier rules, and share the available refund or credit options where applicable.",
     ],
   },
@@ -72,7 +72,7 @@ export default function RefundPolicyPage() {
           <p className="mt-8 text-lg leading-8 text-[#475569]">
             This Refund Policy explains how refunds are reviewed for travel
             planning, flights, hotels, tours, transfers, visa assistance, and
-            related services booked through VoyagoTravels.
+            related services booked through Voyagoglobal.
           </p>
         </div>
       </section>

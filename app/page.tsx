@@ -111,7 +111,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#f8fbff] text-[#12213f]">
       <header className="sticky top-0 z-50 border-b border-[#dbe7fb] bg-white/92 text-[#12213f] shadow-sm shadow-[#3157d5]/5 backdrop-blur">
         <nav className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-8">
-          <a aria-label="VoyagoTravels home" href="#">
+          <a aria-label="Voyagoglobal home" href="#">
             <BrandLogo />
           </a>
           <div className="hidden items-center gap-8 text-sm font-bold text-[#526174] lg:flex">
@@ -148,7 +148,7 @@ export default function Home() {
       <section className="relative isolate min-h-[610px] overflow-hidden bg-[#eef5ff] px-4 py-6 text-[#12213f] sm:px-8 lg:min-h-[650px] lg:py-8">
         <Image
           src={`${imageBase}/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2200&q=86`}
-          alt="VoyagoTravels bright beach holiday"
+          alt="Voyagoglobal bright beach holiday"
           fill
           priority
           sizes="100vw"
@@ -394,7 +394,7 @@ export default function Home() {
               title="Straight answers about quotes, changes, and consultant support."
             />
             <p className="mt-6 max-w-xl text-base leading-8 text-[#64748b]">
-              Use these notes to understand how VoyagoTravels works before
+              Use these notes to understand how Voyagoglobal works before
               you request a route or ask for a supplier-backed quote.
             </p>
             <a
@@ -448,21 +448,21 @@ export default function Home() {
               </p>
               <a
                 className="mt-4 block break-words text-2xl font-black text-[#12213f] hover:text-[#ff7a59]"
-                href="mailto:info@voyagotravels.com"
+                href="mailto:info@voyagoglobal.com"
               >
-                info@voyagotravels.com
+                info@voyagoglobal.com
               </a>
               <div className="mt-4 grid gap-2 text-base font-black text-[#12213f]">
-                <a className="hover:text-[#ff7a59]" href="tel:+17078028394">
-                  +1 (707) 802-8394
+                <a className="hover:text-[#ff7a59]" href="tel:+19715175979">
+                  +1 (971) 517-5979
                 </a>
               </div>
               <div className="mt-5 border-t border-[#c8dcff] pt-5 text-sm font-bold leading-6 text-[#64748b]">
                 <p className="font-black text-[#0f172a]">
-                  VoyagoTravels LLC
+                  Voyagoglobal LLC
                 </p>
-                <p>60 W Brookside Dr</p>
-                <p>Cloverdale, CA 95425</p>
+                <p>190 WEST WALNUT AVE, APT C</p>
+                <p>RIALTO, CA 92376</p>
               </div>
               <a
                 className="mt-5 inline-block rounded-full bg-[#3157d5] px-5 py-3 font-black text-white hover:bg-[#2446b8]"
@@ -501,7 +501,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col gap-4 border-t border-[#dbe7fb] px-6 py-5 text-sm text-[#64748b] sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-10">
-            <p>Copyright 2026 VoyagoTravels. All rights reserved.</p>
+            <p>Copyright 2026 Voyagoglobal. All rights reserved.</p>
             <p>Built for calm planning from first idea to final confirmation.</p>
           </div>
         </div>

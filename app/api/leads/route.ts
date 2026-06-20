@@ -197,7 +197,7 @@ async function sendLeadEmailNotification(lead: Lead) {
   });
 
   await transporter.sendMail({
-    from: `"VoyagoTravels Leads" <${emailConfig.user}>`,
+    from: `"Voyagoglobal Leads" <${emailConfig.user}>`,
     to: emailConfig.to,
     replyTo: lead.email || undefined,
     subject: `New ${lead.serviceType} lead from website chatbot`,
@@ -251,7 +251,7 @@ function formatLeadHtml(lead: Lead) {
   return `
     <div style="font-family:Arial,Helvetica,sans-serif;max-width:680px;color:#17211f;">
       <h2 style="margin:0 0 12px;color:#0d5b57;">New Website Chatbot Lead</h2>
-      <p style="margin:0 0 18px;color:#42514d;">A new travel enquiry was submitted on VoyagoTravels.</p>
+      <p style="margin:0 0 18px;color:#42514d;">A new travel enquiry was submitted on Voyagoglobal.</p>
       <table style="width:100%;border-collapse:collapse;border:1px solid #e8e2d6;background:#fffaf1;">
         ${rows}
       </table>

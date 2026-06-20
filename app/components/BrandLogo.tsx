@@ -32,7 +32,7 @@ export default function BrandLogo({ inverted = false }: BrandLogoProps) {
             inverted ? "text-white" : "text-[#12213f]"
           }`}
         >
-          VoyagoTravels
+          Voyagoglobal
         </span>
         <span
           className={`mt-1 block text-[10px] font-black uppercase tracking-[0.2em] ${

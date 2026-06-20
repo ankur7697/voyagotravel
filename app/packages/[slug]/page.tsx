@@ -21,12 +21,12 @@ export async function generateMetadata({
 
   if (!item) {
     return {
-      title: "Package Not Found | VoyagoTravels",
+      title: "Package Not Found | Voyagoglobal",
     };
   }
 
   return {
-    title: `${item.place} | VoyagoTravels`,
+    title: `${item.place} | Voyagoglobal`,
     description: item.summary,
   };
 }

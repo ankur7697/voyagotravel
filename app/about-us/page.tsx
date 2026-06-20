@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us | VoyagoTravels",
+  title: "About Us | Voyagoglobal",
   description:
-    "Learn about VoyagoTravels, a travel consultant company helping with reservations, packages, and itinerary coordination.",
+    "Learn about Voyagoglobal, a travel consultant company helping with reservations, packages, and itinerary coordination.",
 };
 
 const strengths = [
@@ -40,7 +40,7 @@ export default function AboutUsPage() {
           </h1>
           <div className="mt-8 space-y-5 border-l border-[#3157d5]/25 pl-5 text-lg leading-8 text-[#526174]">
             <p>
-              VoyagoTravels is a travel consultant company. We help travelers
+              Voyagoglobal is a travel consultant company. We help travelers
               choose a travel mood, compare route options, review flights and
               hotels, arrange local transfers, and coordinate itinerary details
               before booking.
@@ -79,7 +79,7 @@ export default function AboutUsPage() {
             ))}
           </div>
           <p className="mt-8 text-base leading-8 text-[#475569]">
-            VoyagoTravels works as a travel consulting partner. Final
+            Voyagoglobal works as a travel consulting partner. Final
             availability, pricing, refund rules, and cancellation terms depend
             on airlines, hotels, local operators, and other travel suppliers.
           </p>

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Cancellation Policy | VoyagoTravels",
+  title: "Cancellation Policy | Voyagoglobal",
   description:
-    "Cancellation policy for VoyagoTravels bookings, itinerary changes, no-shows, supplier penalties, and travel credits.",
+    "Cancellation policy for Voyagoglobal bookings, itinerary changes, no-shows, supplier penalties, and travel credits.",,
 };
 
 const sections = [
@@ -18,7 +18,7 @@ const sections = [
   {
     title: "Cancellation Charges",
     body: [
-      "Cancellation charges may include airline penalties, hotel penalties, tour operator penalties, transfer charges, visa or document fees, payment processor fees, taxes, currency conversion differences, and VoyagoTravels service fees.",
+      "Cancellation charges may include airline penalties, hotel penalties, tour operator penalties, transfer charges, visa or document fees, payment processor fees, taxes, currency conversion differences, and Voyagoglobal service fees.",
       "Some bookings are fully non-refundable after confirmation, especially discounted fares, promotional hotels, group bookings, cruise cabins, event tickets, peak season packages, and last-minute arrangements.",
     ],
   },
@@ -46,7 +46,7 @@ const sections = [
   {
     title: "How To Cancel",
     body: [
-      "Email info@voyagotravels.com or call +1 (707) 802-8394 with your booking name, invoice number, travel dates, service to cancel, and reason for cancellation. Written requests may also be sent to VoyagoTravels LLC, 60 W Brookside Dr, Cloverdale, CA 95425. Urgent travel changes should also be communicated by phone or messaging if you have an assigned travel consultant.",
+      "Email info@voyagoglobal.com or call +1 (971) 517-5979 with your booking name, invoice number, travel dates, service to cancel, and reason for cancellation. Written requests may also be sent to Voyagoglobal LLC, 190 WEST WALNUT AVE, APT C, RIALTO, CA 92376. Urgent travel changes should also be communicated by phone or messaging if you have an assigned travel consultant.",,
       "We will review your booking terms and share the estimated cancellation outcome before proceeding where possible.",
     ],
   },
@@ -72,7 +72,7 @@ export default function CancellationPolicyPage() {
           <p className="mt-8 text-lg leading-8 text-[#475569]">
             This Cancellation Policy explains how cancellations, changes,
             no-shows, supplier penalties, and travel credits are handled for
-            bookings arranged through VoyagoTravels.
+            bookings arranged through Voyagoglobal.
           </p>
         </div>
       </section>
