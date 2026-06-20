@@ -39,7 +39,7 @@ export default function BrandLogo({ inverted = false }: BrandLogoProps) {
             inverted ? "text-white/65" : "text-[#64748b]"
           }`}
         >
-          Routes made simple
+          Voyago travel solutions llc
         </span>
       </span>
     </span>
