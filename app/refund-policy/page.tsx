@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Refund Policy | Voyagoglobal",
   description:
-    "Refund policy for Voyagoglobal bookings, deposits, supplier charges, payment processing, and travel service fees.",,
+    "Refund policy for Voyagoglobal bookings, deposits, supplier charges, payment processing, and travel service fees.",
 };
 
 const sections = [
