@@ -36,9 +36,9 @@ const services = [
 
 const faqs = [
   {
-    question: "Is VoyagoTravels a travel consultant?",
+    question: "Is Voyagoglobal a travel consultant?",
     answer:
-      "VoyagoTravels is a travel planning desk for people who want clear options before booking. We compare routes, stays, inclusions, documents, and supplier terms so your trip is planned before payment.",
+      "Voyagoglobal is a travel planning desk for people who want clear options before booking. We compare routes, stays, inclusions, documents, and supplier terms so your trip is planned before payment.",
   },
   {
     question: "Are the package prices final?",

@@ -3,7 +3,7 @@ import LeadChatbot from "./components/LeadChatbot";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "VoyagoTravels",
+  title: "Voyagoglobal",
   description:
     "Mood-based travel planning, packages, flight and hotel coordination, and custom itinerary support.",
   icons: {
